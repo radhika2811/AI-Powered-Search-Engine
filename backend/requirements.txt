@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+PyPDF2
+python-docx
+google-generativeai
+pydantic
+sentence-transformers
+faiss-cpu
+numpy
+pandas
+langdetect
+scikit-learn
+python-multipart
