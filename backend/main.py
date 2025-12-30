@@ -78,7 +78,14 @@ Standalone Question:"""
         print(f"Error in query transformation: {e}")
         return follow_up_question # Fallback to original if error
   
-    
+@app.get("/")
+def root():
+    return {
+        "status": "running",
+        "message": "AI-Powered Personalized Search Engine is live"
+    }
+
+  
 # -------------------------------------
 # UPLOAD ENDPOINT
 # -------------------------------------
